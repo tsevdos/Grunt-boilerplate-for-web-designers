@@ -1,10 +1,9 @@
-// Un comment to use Compass or Bourbon!
-@import "compass";
-@import "bourbon";
+// SMACSSsmacss (http://smacss.com/)
+// Uncomment to use Compass or Bourbon!
+// @import "compass"; See base/_base.scss for Compass example.
+// @import "bourbon"; See modules/_btns.scss for Bourbon example.
 
-// @include global-reset(); // Compass global reset 
-// button { @include button(shiny, #453015); } // Bourbon button!
-
-$bgcolor:#eee;
-
-body { background:$bgcolor; text-align:center; }
+@import "base/_base"; // Base
+@import "layout/_layout"; // Layout
+@import "modules/_modules"; // Modules
+// more includes depending the project

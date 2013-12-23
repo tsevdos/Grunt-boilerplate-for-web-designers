@@ -1,28 +1,41 @@
-# Grunt-Boilerplate-for-web-designers
+# Grunt boilerplate for web designers
 
-A super-basic grunt-boilerplate for web-designers. The main idea is to deliver a designer-friendly boilerplate out of the box. Some of it's current features:
+> **Grunt boilerplate for web designers** provides a nice file and folder structure to aid web-designers kickstart their next project. It will help you in the development and deployment process of any HTML-based template (and not only). Some of the features that you get out of the box are:
 
-- Compile .sass and .scss files
+- SMACSS (Scalable and Modular Architecture for CSS) ready infastructure (http://smacss.com/)
+- Compile Sass files
 - Compass and Burbon support
 - JsLinter
 - CSS, JS and HTML minification
 - Image optimizasion
 
-## Installation and Dependencies
+## Installation
 
-You need to install grunt (http://gruntjs.com/getting-started) in order to run the tasks. When you are ready you also need to install the below ruby gem in order to optimise the images (find out how to install gems here(http://guides.rubygems.org/rubygems-basics/)). Find out how to install Ruby here(https://www.ruby-lang.org/en/downloads/).
+Follow the [Getting started with Grunt](http://gruntjs.com/getting-started) for an in-depth look at setting up Grunt, but basically:
 
-- `gem install image_optim`
+1. Boot up Terminal
+2. Make sure to have **[Node.js](http://nodejs.org/download/)** installed. (Plus Sass)
+3. You need to install Sass `gem install sass` and Image Optimization gem `gem install image_optim` (find out how to install gems here(http://guides.rubygems.org/rubygems-basics/)
+4. Install **Grunt CLI globally** `npm install -g grunt-cli`
+5. `cd` to your project folder
+6. Git clone, or download the zip from https://github.com/tsevdos/Grunt-boilerplate-for-web-designers.git
+7. Install Grunt and required grunt tasks `npm install`
+8. Run `grunt server` and enjoy
 
-Then simply run the below npm command and you're done!
 
-- `npm install`
+## Tasks
 
- Your "development" environment is the "app" folder (you do most of your work there).
+1. grunt (default task)
+2. grunt test
+3. grunt release
+4. grunt server
 
+
+## Directories and files
+
+Your "development" environment is the in the "app" directory - you do all the work there. (Write more regarding the public folder).
 
 ## TODO:
 
 - Optimize some tasks
 - fix the "Port 35729 is already in use by another process"
-- Add .sass support (and keep the folder structure)

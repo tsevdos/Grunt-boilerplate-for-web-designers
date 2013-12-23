@@ -111,7 +111,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= paths.app %>/scss',
-                    src: ['**/*.scss'],
+                    src: ['**/*.scss', '!**/_*.scss'],
                     dest: '<%= paths.app %>/css',
                     ext: '.css'
                 }]
@@ -125,7 +125,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= paths.app %>/scss',
-                    src: ['*.scss'],
+					src: ['**/*.scss', '!**/_*.scss'],
                     dest: '<%= paths.dist %>/css',
                     ext: '.css'
                 }]
@@ -161,7 +161,7 @@ module.exports = function (grunt) {
 
         watch: {
             css: {
-                files: ['Gruntfile.js', 'app/**/*.js', './app/scss/*.scss'],
+                files: ['Gruntfile.js', 'app/**/*.js', './app/scss/**/*.scss'],
                 tasks: ['default']
             },
             livereload: {
