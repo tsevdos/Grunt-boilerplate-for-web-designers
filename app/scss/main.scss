@@ -1,0 +1,10 @@
+// Un comment to use Compass or Bourbon!
+@import "compass";
+@import "bourbon";
+
+// @include global-reset(); // Compass global reset 
+// button { @include button(shiny, #453015); } // Bourbon button!
+
+$bgcolor:#eee;
+
+body { background:$bgcolor; text-align:center; }
