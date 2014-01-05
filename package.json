@@ -1,7 +1,7 @@
 {
   "name": "boilerplate",
-  "version": "0.1.0",
-  "description": "This is a project set-up using Grunt to take case of some standard tasks such as: compiling AMD based modules using RequireJS, watching/compiling Sass into CSS, watching/linting JS code and some other things such as running unit tests",
+  "version": "0.4.0",
+  "description": "Grunt boilerplate for web designers provides a nice directory and file structure to aid web-designers kickstart their next project. Some standard tasks include: watching/compiling Sass into CSS, Compass and Burbon support, linting JS code, live-reload, file minification and image optimization.",
   "main": "Gruntfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -24,11 +24,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Integralist/Grunt-Boilerplate.git"
+    "url": "git@github.com:tsevdos/Grunt-boilerplate-for-web-designers.git"
   },
   "keywords": [
     "Grunt",
-    "JavaScript"
+    "boilerplate"
   ],
   "author": "John Tsevdos",
   "license": "GPL2"

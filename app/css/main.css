@@ -66,7 +66,17 @@ h1 {
   font-weight: bold;
 }
 
+p {
+  margin: 0 0 1em;
+}
+
 a {
+  color: #453015;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn {
   margin: 2em 0;
   border: 1px solid #0f0a04;
   border-radius: 3px;
@@ -83,18 +93,18 @@ a {
   text-shadow: 0 1px 0 black;
   background-clip: padding-box;
 }
-a:hover:not(:disabled) {
+.btn:hover:not(:disabled) {
   box-shadow: inset 0 1px 0 0 #553d1f;
   cursor: pointer;
   background-color: #302210;
   background-image: -webkit-linear-gradient(#302210, #0f0a04);
   background-image: linear-gradient(#302210, #0f0a04);
 }
-a:active:not(:disabled) {
+.btn:active:not(:disabled) {
   border: 1px solid #0f0a04;
   box-shadow: inset 0 0 8px 4px #030201, inset 0 0 8px 4px #030201, 0 1px 1px 0 #eeeeee;
 }
-a:disabled {
+.btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
