@@ -1,6 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "grunt-boilerplate-for-web-designers",
   "version": "0.4.0",
+  "private": true,
   "description": "Grunt boilerplate for web designers provides a nice directory and file structure to aid web-designers kickstart their next project. Some standard tasks include: watching/compiling Sass into CSS, Compass and Burbon support, linting JS code, live-reload, file minification and image optimization.",
   "main": "Gruntfile.js",
   "dependencies": {},
@@ -20,14 +21,16 @@
     "node-bourbon": "~1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "grunt serve",
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:tsevdos/Grunt-boilerplate-for-web-designers.git"
   },
   "keywords": [
-    "Grunt",
+    "grunt",
+    "gruntjs",
     "boilerplate"
   ],
   "author": "John Tsevdos",
