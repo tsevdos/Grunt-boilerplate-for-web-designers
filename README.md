@@ -16,7 +16,7 @@ Follow the [Getting started with Grunt](http://gruntjs.com/getting-started) for 
 
 1. Boot up Terminal
 2. Make sure to have **[Node.js](http://nodejs.org/download/)** installed.
-3. You need to install Image Optimization gem (`gem install image_optim`). Find out how to install gems [here](http://guides.rubygems.org/rubygems-basics/)
+3. You need to install [Image Optimization gem](https://rubygems.org/gems/image_optim) (`gem install image_optim`). Find out how to install gems [here](http://guides.rubygems.org/rubygems-basics/)
 4. Install **Grunt CLI globally** `npm install -g grunt-cli`
 5. `cd` to your project folder
 6. Git clone (`git clone git@github.com:tsevdos/Grunt-boilerplate-for-web-designers.git`) or download the zip from [https://github.com/tsevdos/Grunt-boilerplate-for-web-designers](https://github.com/tsevdos/Grunt-boilerplate-for-web-designers)
